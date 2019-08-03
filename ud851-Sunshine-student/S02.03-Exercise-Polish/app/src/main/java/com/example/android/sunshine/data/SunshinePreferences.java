@@ -18,7 +18,7 @@ package com.example.android.sunshine.data;
 import android.content.Context;
 
 public class SunshinePreferences {
-
+    
     /*
      * Human readable location string, provided by the API.  Because for styling,
      * "Mountain View" is more recognizable than 94043.
