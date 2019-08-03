@@ -15,7 +15,7 @@
  */
 package com.example.android.favoritetoys;
 
-public final class ToyBox {
+final class ToyBox {
 
     /**
      * This method returns a list of popular toy names from the 20th and early 21st centuries.
@@ -23,8 +23,8 @@ public final class ToyBox {
      *
      * @return A list of popular toys
      */
-    public static String[] getToyNames() {
-        return new String[] {
+    static String[] getToyNames() {
+        return new String[]{
                 "Red Toy Wagon",
                 "Chemistry Set",
                 "Yo-Yo",
