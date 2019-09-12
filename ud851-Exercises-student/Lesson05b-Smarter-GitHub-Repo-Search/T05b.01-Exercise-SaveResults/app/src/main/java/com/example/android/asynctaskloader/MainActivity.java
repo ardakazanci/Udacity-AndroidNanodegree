@@ -18,12 +18,14 @@ package com.example.android.asynctaskloader;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.asynctaskloader.utilities.NetworkUtils;
 
@@ -32,9 +34,13 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
-    // TODO (1) Create a static final key to store the query's URL
+    // TODO (COMPLETED) Create a static final key to store the query's URL
+    private static final String QUERY_URL = "QUERY_URL";
+    private String searchUrlString;
+    // TODO (COMPLETED) Create a static final key to store the search's raw JSON
 
-    // TODO (2) Create a static final key to store the search's raw JSON
+    private static final String RAW_JSON_RESULT = "RAW_JSON_RESULT";
+    private String jsonResult;
 
     private EditText mSearchBoxEditText;
 
@@ -50,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         mSearchBoxEditText = (EditText) findViewById(R.id.et_search_box);
 
         mUrlDisplayTextView = (TextView) findViewById(R.id.tv_url_display);
@@ -59,7 +67,18 @@ public class MainActivity extends AppCompatActivity {
 
         mLoadingIndicator = (ProgressBar) findViewById(R.id.pb_loading_indicator);
 
-        // TODO (9) If the savedInstanceState bundle is not null, set the text of the URL and search results TextView respectively
+        // TODO (COMPLETED) If the savedInstanceState bundle is not null, set the text of the URL and search results TextView respectively
+
+        if (savedInstanceState != null) {
+
+            mSearchResultsTextView.setText(savedInstanceState.getString(RAW_JSON_RESULT));
+            mUrlDisplayTextView.setText(savedInstanceState.getString(QUERY_URL));
+
+        } else {
+            Toast.makeText(this, "SAVE INSTANCE STATE NULL", Toast.LENGTH_SHORT).show();
+        }
+
+
     }
 
     /**
@@ -68,10 +87,12 @@ public class MainActivity extends AppCompatActivity {
      * that URL in a TextView, and finally fires off an AsyncTask to perform the GET request using
      * our {@link GithubQueryTask}
      */
+
     private void makeGithubSearchQuery() {
         String githubQuery = mSearchBoxEditText.getText().toString();
         URL githubSearchUrl = NetworkUtils.buildUrl(githubQuery);
         mUrlDisplayTextView.setText(githubSearchUrl.toString());
+
         new GithubQueryTask().execute(githubSearchUrl);
     }
 
@@ -114,9 +135,12 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(URL... params) {
             URL searchUrl = params[0];
+
             String githubSearchResults = null;
             try {
+                searchUrlString = params[0].toString();
                 githubSearchResults = NetworkUtils.getResponseFromHttpUrl(searchUrl);
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -128,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
             mLoadingIndicator.setVisibility(View.INVISIBLE);
             if (githubSearchResults != null && !githubSearchResults.equals("")) {
                 showJsonDataView();
+                jsonResult = githubSearchResults;
                 mSearchResultsTextView.setText(githubSearchResults);
             } else {
                 showErrorMessage();
@@ -151,13 +176,29 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // TODO (3) Override onSaveInstanceState to persist data across Activity recreation
+    // TODO (COMPLETED) Override onSaveInstanceState to persist data across Activity recreation
     // Do the following steps within onSaveInstanceState
-    // TODO (4) Make sure super.onSaveInstanceState is called before doing anything else
 
-    // TODO (5) Put the contents of the TextView that contains our URL into a variable
-    // TODO (6) Using the key for the query URL, put the string in the outState Bundle
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        Log.e("SEARCHURL",searchUrlString);
+        Log.e("SEARCHURL",jsonResult);
+        if (searchUrlString != null && jsonResult != null) {
+            outState.putString(QUERY_URL, searchUrlString);
+            outState.putString(RAW_JSON_RESULT, jsonResult);
+        } else {
+            Toast.makeText(this, "SEARCH URL ve JSON RESULT NULL", Toast.LENGTH_SHORT).show();
+        }
 
-    // TODO (7) Put the contents of the TextView that contains our raw JSON search results into a variable
-    // TODO (8) Using the key for the raw JSON search results, put the search results into the outState Bundle
+    }
+
+
+    // TODO (COMPLETED) Make sure super.onSaveInstanceState is called before doing anything else
+
+    // TODO (COMPLETED) Put the contents of the TextView that contains our URL into a variable
+    // TODO (COMPLETED) Using the key for the query URL, put the string in the outState Bundle
+
+    // TODO (COMPLETED) Put the contents of the TextView that contains our raw JSON search results into a variable
+    // TODO (COMPLETED) Using the key for the raw JSON search results, put the search results into the outState Bundle
 }

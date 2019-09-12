@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b1f960fd653ee7c56350a0e360be905f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2bbd62ea1fc309ed9499573aaa29c786/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/df02f5a36f305c8c5017953284ff9bd0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0cb74f8918844c37b9b9e6816570eea2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/49146d7ed2d2667f9a0e7374753af967/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6c72f76d8974f63c4875a6b019082973/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/68d2667dbd10e38d69ce0bed5c69e163/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/89e496560857008492ff1496a3fd7ca4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d58eec9426a69cf6f54bb7bd618fc742/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ead1fca19d9de6614fed1602d741b6e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9513ba052508f6f99b5156c271443bfb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d8e665720b5ce702803bdc8c2622e637/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ddf6b96bb2fa5de88b397722ce931ad3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/31acdee6b8277965965089256edd8190/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/13a1995db489f357c1456262cfbde7b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cfdc32f59db188cf468c07ecdd4efd6c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f54753b393a10283232d1d89d363caa8/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/03fcc4c0f584df880292ab4c1916c18a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f5d1255a9d835fb03b969d31da6bdb37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d954c436486bb7b95b1058970f502d64/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ba0a80b3678f1b44fb5043f711611691/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2aff50333d2f09bb921656d77fa6e66d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5f51537a029e727b603bef001edb0972/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a647e29f401c0d3d3d1960ff8de443e7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5391b4cd2254f1a0939d6a8857502627/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7bcf0a5184fd36523be8951b541c92d3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5eef7e6bff2f2a03dbdb1196a5cd4121/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+	package
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:18:5-43
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:1-39:12
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:17:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:21:22-64
+application
+ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:23:5-37:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cfdc32f59db188cf468c07ecdd4efd6c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cfdc32f59db188cf468c07ecdd4efd6c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f54753b393a10283232d1d89d363caa8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f54753b393a10283232d1d89d363caa8/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cfdc32f59db188cf468c07ecdd4efd6c/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:26:9-41
+	android:icon
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:25:9-43
+	android:allowBackup
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:28:9-40
+activity#com.example.android.sunshine.MainActivity
+ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:29:9-36:20
+	android:label
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:30:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml:34:27-74
+uses-sdk
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b1f960fd653ee7c56350a0e360be905f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b1f960fd653ee7c56350a0e360be905f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2bbd62ea1fc309ed9499573aaa29c786/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2bbd62ea1fc309ed9499573aaa29c786/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/df02f5a36f305c8c5017953284ff9bd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/df02f5a36f305c8c5017953284ff9bd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0cb74f8918844c37b9b9e6816570eea2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0cb74f8918844c37b9b9e6816570eea2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/49146d7ed2d2667f9a0e7374753af967/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/49146d7ed2d2667f9a0e7374753af967/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6c72f76d8974f63c4875a6b019082973/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6c72f76d8974f63c4875a6b019082973/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/68d2667dbd10e38d69ce0bed5c69e163/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/68d2667dbd10e38d69ce0bed5c69e163/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/89e496560857008492ff1496a3fd7ca4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/89e496560857008492ff1496a3fd7ca4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d58eec9426a69cf6f54bb7bd618fc742/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d58eec9426a69cf6f54bb7bd618fc742/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ead1fca19d9de6614fed1602d741b6e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ead1fca19d9de6614fed1602d741b6e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9513ba052508f6f99b5156c271443bfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9513ba052508f6f99b5156c271443bfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d8e665720b5ce702803bdc8c2622e637/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d8e665720b5ce702803bdc8c2622e637/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ddf6b96bb2fa5de88b397722ce931ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ddf6b96bb2fa5de88b397722ce931ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/31acdee6b8277965965089256edd8190/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/31acdee6b8277965965089256edd8190/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/13a1995db489f357c1456262cfbde7b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/13a1995db489f357c1456262cfbde7b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cfdc32f59db188cf468c07ecdd4efd6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cfdc32f59db188cf468c07ecdd4efd6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f54753b393a10283232d1d89d363caa8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f54753b393a10283232d1d89d363caa8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/03fcc4c0f584df880292ab4c1916c18a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/03fcc4c0f584df880292ab4c1916c18a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f5d1255a9d835fb03b969d31da6bdb37/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f5d1255a9d835fb03b969d31da6bdb37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d954c436486bb7b95b1058970f502d64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d954c436486bb7b95b1058970f502d64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ba0a80b3678f1b44fb5043f711611691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ba0a80b3678f1b44fb5043f711611691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2aff50333d2f09bb921656d77fa6e66d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/2aff50333d2f09bb921656d77fa6e66d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5f51537a029e727b603bef001edb0972/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5f51537a029e727b603bef001edb0972/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a647e29f401c0d3d3d1960ff8de443e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/a647e29f401c0d3d3d1960ff8de443e7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5391b4cd2254f1a0939d6a8857502627/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5391b4cd2254f1a0939d6a8857502627/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7bcf0a5184fd36523be8951b541c92d3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7bcf0a5184fd36523be8951b541c92d3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5eef7e6bff2f2a03dbdb1196a5cd4121/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ardakazanci/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5eef7e6bff2f2a03dbdb1196a5cd4121/AndroidManifest.xml:20:5-44
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Sunshine-student/S03.01-Exercise-RecyclerView/app/src/main/AndroidManifest.xml

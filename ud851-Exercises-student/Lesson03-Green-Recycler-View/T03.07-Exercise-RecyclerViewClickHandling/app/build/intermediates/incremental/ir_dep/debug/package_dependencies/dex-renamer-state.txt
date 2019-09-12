@@ -1,0 +1,4 @@
+#Sun Aug 04 22:41:30 EET 2019
+base.0=/Users/ardakazanci/Documents/GitHub/Udacity-AndroidNanodegree/ud851-Exercises-student/Lesson03-Green-Recycler-View/T03.07-Exercise-RecyclerViewClickHandling/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
