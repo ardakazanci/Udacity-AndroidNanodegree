@@ -126,8 +126,8 @@ public class VisualizerActivity extends AppCompatActivity {
     // "action_settings", title should be saved in strings.xml, the item should never
     // be shown as an action, and orderInCategory should be 100
 
-    // TODO (5) Add the menu to the menu bar
-    // TODO (6) When the "Settings" menu item is pressed, open SettingsActivity
+    // TODO (COMPLETED) Add the menu to the menu bar
+    // TODO (COMPLETED) When the "Settings" menu item is pressed, open SettingsActivity
 
 
     @Override

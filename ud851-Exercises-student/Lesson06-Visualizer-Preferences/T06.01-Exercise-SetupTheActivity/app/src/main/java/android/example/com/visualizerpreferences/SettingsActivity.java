@@ -24,7 +24,6 @@ public class SettingsActivity extends AppCompatActivity {
         int id = item.getItemId();
         if(id == R.id.home){
             NavUtils.navigateUpFromSameTask(this);
-
         }
         return super.onOptionsItemSelected(item);
     }
