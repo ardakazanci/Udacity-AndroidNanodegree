@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.example.android.sunshine.settings.SettingsActivity;
+
 public class DetailActivity extends AppCompatActivity {
 
     private static final String FORECAST_SHARE_HASHTAG = " #SunshineApp";

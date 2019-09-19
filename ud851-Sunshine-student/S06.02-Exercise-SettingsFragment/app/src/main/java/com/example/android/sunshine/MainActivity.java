@@ -34,6 +34,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.android.sunshine.data.SunshinePreferences;
+import com.example.android.sunshine.settings.SettingsActivity;
 import com.example.android.sunshine.utilities.NetworkUtils;
 import com.example.android.sunshine.utilities.OpenWeatherJsonUtils;
 
