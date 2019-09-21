@@ -19,12 +19,14 @@ import static org.junit.Assert.assertTrue;
  */
 public class ContractClassUnitTest {
 
+    // Inner Class var mı yok mu ? Ve Kaç Adet.
     @Test
     public void inner_class_exists() throws Exception {
         Class[] innerClasses = WaitlistContract.class.getDeclaredClasses();
         assertEquals("There should be 1 Inner class inside the contract class", 1, innerClasses.length);
     }
 
+    // Inner Class BaseColumns testi.
     @Test
     public void inner_class_type_correct() throws Exception {
         Class[] innerClasses = WaitlistContract.class.getDeclaredClasses();
@@ -35,6 +37,7 @@ public class ContractClassUnitTest {
         assertTrue("Inner class should be static", Modifier.isStatic(entryClass.getModifiers()));
     }
 
+    // Kolon isimlerinin testi.
     @Test
     public void inner_class_members_correct() throws Exception {
         Class[] innerClasses = WaitlistContract.class.getDeclaredClasses();
